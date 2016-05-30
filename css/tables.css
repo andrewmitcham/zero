@@ -1,0 +1,45 @@
+.table-separate {
+    border-collapse: separate;
+    border-spacing: 16px;
+}
+
+.table-separate td {
+    border-bottom: 1px solid #555555;
+    border-right: 1px solid #555555;
+    box-shadow: 2px 2px 4px #555555;
+    background: #eeeeee;
+    padding: 8px;
+}
+
+.table-separate th {
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+    padding: 8px;
+}
+
+.table-separate caption {
+    caption-side: bottom;
+    text-align: right;
+    padding: 2px;
+}
+
+.table-collapse {
+    border-collapse: collapse;
+}
+
+.table-collapse td {
+    border: 1px solid #cccccc;
+    padding: 16px;
+}
+
+.table-collapse th {
+    border-bottom: 2px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+.table-collapse caption {
+    caption-side: bottom;
+    text-align: right;
+    padding: 2px;
+}

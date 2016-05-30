@@ -1,0 +1,11 @@
+.div-right{
+    position: absolute;
+    right: 10px;
+    width: 49%;
+}
+
+.div-left{
+    position: absolute;
+    left: 10px;
+    width: 49%;
+}
