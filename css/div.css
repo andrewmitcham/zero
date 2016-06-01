@@ -9,3 +9,33 @@ div.left {
     left: 10px;
     width: 49%;
 }
+
+div.header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+div.navigate {
+    background-color: #808080;
+    line-height: 30px;
+    height: 300px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+div.selection {
+    width: 350px;
+    float: none;
+    padding: 10px;
+}
+
+div.footer {
+    background-color: #000000;
+    color: #ffffff;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}

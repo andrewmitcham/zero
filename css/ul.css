@@ -1,0 +1,19 @@
+ul.menu {
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline;
+}
+
+ul.menu li a {
+    background-color: #808080;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2px 2px 2px 0;
+}
+
+ul.menu a:hover {
+    background-color: #444444;
+}
