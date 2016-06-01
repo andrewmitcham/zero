@@ -44,6 +44,12 @@ function dates() {
     return dts;
 }
 
+function pointers(sgn, arg) {
+    this.sgn = "sgn";
+    this.arg = "arg";
+}
+var pointer = new pointers(1, 2);
+
 // SCOPE POINTER
 // =============
 
@@ -52,7 +58,7 @@ var output = [
     numbers(),//1
     arrays(),//2
     dates(),//3
-
+    pointer.sgn,//4
 ];
 
-console.log(output[3]);
+console.log(output[4]);
