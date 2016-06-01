@@ -1,9 +1,9 @@
-.table-separate {
+table.separate {
     border-collapse: separate;
     border-spacing: 16px;
 }
 
-.table-separate td {
+table.separate td {
     border-bottom: 1px solid #555555;
     border-right: 1px solid #555555;
     box-shadow: 2px 2px 4px #555555;
@@ -11,34 +11,34 @@
     padding: 8px;
 }
 
-.table-separate th {
+table.separate th {
     border-bottom: 1px solid #cccccc;
     text-align: center;
     padding: 8px;
 }
 
-.table-separate caption {
+table.separate caption {
     caption-side: bottom;
     text-align: right;
     padding: 2px;
 }
 
-.table-collapse {
+table.collapse_ {
     border-collapse: collapse;
 }
 
-.table-collapse td {
+table.collapse_ td {
     border: 1px solid #cccccc;
     padding: 16px;
 }
 
-.table-collapse th {
+table.collapse_ th {
     border-bottom: 2px solid #000000;
     text-align: center;
     padding: 8px;
 }
 
-.table-collapse caption {
+table.collapse_ caption {
     caption-side: bottom;
     text-align: right;
     padding: 2px;

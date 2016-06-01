@@ -15,6 +15,7 @@
     <script src="" async></script>
 
     <link rel="stylesheet" type="text/css" href="css/table.css">
+    <link rel="stylesheet" type="text/css" href="css/mark.css">
     <!--<script src="js/reference/syntax.js" async></script>-->
     <!--<script src="js/reference/callback.js" async></script>-->
     <!--<script src="js/0math.js" async></script>-->
@@ -32,6 +33,7 @@
     <div style="margin-top: 8px">
         <a href="#labels">Labels</a><br>
         <a href="#tables">Tables</a><br>
+        <a href="#lists">Lists</a><br>
         <hr>
     </div>
 
@@ -51,12 +53,22 @@
         <del>label7</del>
         <br>
         <ins>label8</ins>
-        <a href="reference.html" title="Description">label9</a><br>
+        <a href="reference.html" title="Description" target="_top">label9</a><br>
+        <bdo dir="rtl">label10</bdo>
+        <br>
+        <abbr title="NWO">label11</abbr>
+        <br>
+        <kbd>label12</kbd>
+        <br>
+        <code>label13</code>
+        <br>
+        <mark class="attention">label14</mark>
+        <br>
         <hr>
     </div>
 
     <div id="tables">
-        <table class="table-separate">
+        <table class="collapse_">
             <caption>?table</caption>
             <tr>
                 <th colspan="3">table</th>
@@ -77,6 +89,21 @@
                 <td style="background: #15e600">table9</td>
             </tr>
         </table>
+        <hr>
+    </div>
+
+    <div id="lists" align="left">
+        <ul style="list-style-type: none">
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <ol type="I">
+                <li>list4</li>
+                <li>list5</li>
+                <li>list6</li>
+            </ol>
+        </ul>
+
         <hr>
     </div>
 

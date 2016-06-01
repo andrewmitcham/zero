@@ -16,6 +16,10 @@ a:focus {
     color: #ba1000;
 }
 
+a:visited {
+    color: #c7254e;
+}
+
 pre {
     margin: 1px 32px 1px;
     box-shadow: 1px 1px 8px #606060;
